@@ -576,22 +576,6 @@
           }
         }
       },
-      "StructureMap/4.5.2": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "System.Collections.Concurrent": "4.0.12",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.1.0",
-          "System.Runtime.Loader": "4.0.0"
-        },
-        "compile": {
-          "lib/netstandard1.5/StructureMap.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.5/StructureMap.dll": {}
-        }
-      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1476,7 +1460,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -1491,7 +1475,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -1671,7 +1655,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.Loader.dll": {}
+          "ref/netstandard1.5/_._": {}
         },
         "runtime": {
           "lib/netstandard1.5/System.Runtime.Loader.dll": {}
@@ -2876,21 +2860,6 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.1.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
-      ]
-    },
-    "StructureMap/4.5.2": {
-      "sha512": "Tx0ctPi/JKzd7RL8MQhGVWJHw8Ft3uNZYtOmMWnq4+3txsBt9FQ2lflWsyiK9yJ43aNnS10P1IXT+q3PIPs/BQ==",
-      "type": "package",
-      "path": "structuremap/4.5.2",
-      "files": [
-        "lib/net45/StructureMap.dll",
-        "lib/net45/StructureMap.xml",
-        "lib/netstandard1.3/StructureMap.dll",
-        "lib/netstandard1.3/StructureMap.xml",
-        "lib/netstandard1.5/StructureMap.dll",
-        "lib/netstandard1.5/StructureMap.xml",
-        "structuremap.4.5.2.nupkg.sha512",
-        "structuremap.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -7064,8 +7033,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
-      "Microsoft.NETCore.App >= 1.1.2",
-      "StructureMap >= 4.5.2"
+      "Microsoft.NETCore.App >= 1.1.2"
     ]
   },
   "packageFolders": {
@@ -7074,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artem.kiyashko\\Source\\Repos\\Snake-Game\\Snake\\Snake.csproj",
-      "projectName": "Snake",
-      "projectPath": "C:\\Users\\artem.kiyashko\\Source\\Repos\\Snake-Game\\Snake\\Snake.csproj",
-      "outputPath": "C:\\Users\\artem.kiyashko\\Source\\Repos\\Snake-Game\\Snake\\obj\\",
+      "projectUniqueName": "C:\\Users\\artem.kiyashko\\Source\\Repos\\Snake-Game\\SnakeCoreApp\\SnakeCoreApp.csproj",
+      "projectName": "SnakeCoreApp",
+      "projectPath": "C:\\Users\\artem.kiyashko\\Source\\Repos\\Snake-Game\\SnakeCoreApp\\SnakeCoreApp.csproj",
+      "outputPath": "C:\\Users\\artem.kiyashko\\Source\\Repos\\Snake-Game\\SnakeCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -7095,10 +7063,6 @@
             "target": "Package",
             "version": "1.1.2",
             "autoReferenced": true
-          },
-          "StructureMap": {
-            "target": "Package",
-            "version": "4.5.2"
           }
         }
       }

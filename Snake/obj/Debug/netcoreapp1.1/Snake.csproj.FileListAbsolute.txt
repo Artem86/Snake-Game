@@ -7,3 +7,12 @@ c:\users\aleksey.knyazev\documents\visual studio 2017\Projects\Snake Game\Snake\
 c:\users\aleksey.knyazev\documents\visual studio 2017\Projects\Snake Game\Snake\bin\Debug\netcoreapp1.1\Snake.pdb
 c:\users\aleksey.knyazev\documents\visual studio 2017\Projects\Snake Game\Snake\obj\Debug\netcoreapp1.1\Snake.dll
 c:\users\aleksey.knyazev\documents\visual studio 2017\Projects\Snake Game\Snake\obj\Debug\netcoreapp1.1\Snake.pdb
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\bin\Debug\netcoreapp1.1\Snake.deps.json
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\bin\Debug\netcoreapp1.1\Snake.runtimeconfig.json
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\bin\Debug\netcoreapp1.1\Snake.runtimeconfig.dev.json
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\bin\Debug\netcoreapp1.1\Snake.dll
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\bin\Debug\netcoreapp1.1\Snake.pdb
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\obj\Debug\netcoreapp1.1\Snake.csprojResolveAssemblyReference.cache
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\obj\Debug\netcoreapp1.1\Snake.AssemblyInfo.cs
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\obj\Debug\netcoreapp1.1\Snake.dll
+C:\Users\artem.kiyashko\Source\Repos\Snake-Game\Snake\obj\Debug\netcoreapp1.1\Snake.pdb

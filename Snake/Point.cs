@@ -9,18 +9,21 @@ namespace Snake
         int x;
         int y;
         char sym;
+        private IPointWriter _writer;
 
-        public Point(int _x, int _y, char _sym)
+        public Point(int _x, int _y, char _sym, IPointWriter writer)
         {
             x = _x;
             y = _y;
             sym = _sym;
+            _writer = writer;
         }
 
         public void Print()
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
+            _writer.PositionX = x;
+            _writer.PositionY = y;
+            _writer.Write(sym);
         }
 
         public void Clear()

@@ -1,14 +1,22 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "e0fe6b4203d904869f414582127e72fe15e8e89b"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "snake/1.0.0": {
+        "dependencies": {
+          "StructureMap": "4.5.2"
+        },
         "runtime": {
           "Snake.dll": {}
+        }
+      },
+      "structuremap/4.5.2": {
+        "runtime": {
+          "lib/netstandard1.5/StructureMap.dll": {}
         }
       }
     }
@@ -18,6 +26,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "structuremap/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tx0ctPi/JKzd7RL8MQhGVWJHw8Ft3uNZYtOmMWnq4+3txsBt9FQ2lflWsyiK9yJ43aNnS10P1IXT+q3PIPs/BQ==",
+      "path": "structuremap/4.5.2",
+      "hashPath": "structuremap.4.5.2.nupkg.sha512"
     }
   }
 }
